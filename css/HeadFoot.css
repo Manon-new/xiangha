@@ -1,0 +1,182 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration:underline;
+}
+li{
+	list-style: none;
+}
+div{
+	overflow: hidden;
+}
+.wh0{
+	width: 0;
+	height: 0;
+}
+.header1{
+	width: 100%;
+	height: 77px;
+	background-color: #FFFAF7;
+	border-bottom: 1px solid #ECE7DF;
+}
+.header2{
+	width: 100%;
+	height: 45px;
+	background-color: #FFFAF7;
+	line-height: 45px;
+}
+.fristrow{
+	margin:auto;
+	width: 1000px;
+	height: 77px;
+	line-height: 77px;
+	background-color: #FFFAF7;
+}
+.secrow{
+	margin:auto;
+	width: 1000px;
+}
+.posi{
+	/*position:relative;*/
+	/*left:-390px;*/
+}
+.pos{
+	/*position:relative;*/
+	/*left:-250px;*/
+}
+.title{
+	color:#9E350E;
+	font-size: 40px;
+}
+/*左右浮动*/
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+
+/*搜索框*/
+.title+input{
+	padding-left: 5px;
+	margin-left:15px;
+	width: 219px;
+	height: 32px;
+	position:relative;
+	bottom:8px;
+}
+.title+input+img{
+	display:inline-block;
+	height: 32px;
+	width: 70px;
+	position:relative;
+	top:-9px;
+	/*border:1px solid black;*/
+}
+
+
+ul{
+	/*float: left;*/
+	/*display:inline-block;*/
+	/*border:1px solid red;*/
+}
+li{
+	margin:auto 10px;
+	/*border:1px solid red;*/
+}
+/*隐藏*/
+.menuclass{
+	width: 246px;
+	margin:0;
+	height: 0;
+	width: 0;
+	/*display: none;*/
+
+}
+/*.hovershow:hover {
+	display: block;
+	position:relative;
+	bottom:-30px;
+	left:200px;
+}*/
+
+.header2 img{
+	width: 20px;
+	height: 20px;
+}
+.bigfont{
+	font-size: 16px;
+	color:#993300;
+}
+li{
+	position:relative;
+	top:0;
+	left:0;
+}
+li div{
+	background-color: #F9F9F9;
+	/*position:relative;*/
+	/*left:20px;*/
+}
+th a{
+	color:#993300;
+}
+td a{
+	color:#666666;
+}
+[colspan="3"]{
+	text-align: center;
+}
+
+
+
+
+/*页脚设置*/
+footer{
+	height: 207px;
+	width: 100%;
+	background-color: #D6D4D0;
+	/*position:fixed;*/
+	/*bottom: 0;*/
+	/*left:0;*/
+}
+.foot{
+	width: 1000px;
+	padding-top:20px;
+	margin-bottom:-20px;
+	margin:auto;
+	/*border:1px solid red;*/
+}
+.foot div{
+	width: 670px;
+}
+
+.inblock{
+	display: inline-block;
+	/*border:1px solid blue;*/
+}
+.textRight{
+	text-align:right;
+}
+textarea{
+	width: 242px;
+	height: 62px;
+}
+.font14{
+	font-size:14px; 
+}
+.textRight input{
+	font-size: 16px;
+	width: 80px;
+	height: 28px;
+	background-color: #D1B3A4;
+	color:#993300;
+	border:none;
+}

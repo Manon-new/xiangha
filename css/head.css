@@ -1,0 +1,125 @@
+/*通用设置*/
+*{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*页头设置*/
+.tit{
+	color:#9E350E;
+	font-size: 40px;
+}
+.tit+input{
+	padding-left: 5px;
+	margin-left:15px;
+	width: 219px;
+	height: 32px;
+	position:relative;
+	bottom:8px;
+}
+.tit+input+img{
+	display:inline-block;
+	height: 32px;
+	width: 70px;
+	position:relative;
+	top:-9px;
+	border:1px solid black;
+}
+
+/*容器尺寸重定义*/
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+.w20{
+	width: 20px;
+}
+/*页头第一行*/
+
+/*页头第二行*/
+.col-xs-1{
+	width: 100px;
+	margin:auto -5px;
+}
+.col-xs-2{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*页脚设置*/
+footer{
+	height: 207px;
+	width: 100%;
+	background-color: #D6D4D0;
+	/*position:fixed;*/
+	/*bottom: 0;*/
+	/*left:0;*/
+}
+.foot{
+	width: 1000px;
+	margin:auto;
+	border:1px solid red;
+}
+.foot div{
+	width: 670px;
+}
+
+.inblock{
+	display: inline-block;
+	border:1px solid blue;
+}
+.textRight{
+	text-align:right;
+}
+textarea{
+	width: 242px;
+	height: 62px;
+}
+.font14{
+	font-size:14px; 
+}
+.textRight input{
+	font-size: 16px;
+	width: 80px;
+	height: 28px;
+	background-color: #D1B3A4;
+	color:#993300;
+	border:none;
+}
