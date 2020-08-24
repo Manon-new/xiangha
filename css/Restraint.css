@@ -1,0 +1,118 @@
+<style>
+		@media (min-width: 768px) {
+		  .container {
+		    width: 1000px;
+		  }
+		}
+		@media (min-width: 992px) {
+		  .container {
+		    width: 1000px;
+		  }
+		}
+		@media (min-width: 1200px) {
+		  .container {
+		    width: 1000px;
+		  }
+		}
+		.row{
+			min-width: 1000px;
+			margin:auto;
+		}
+		.col-xs-1{
+			/*border:1px solid black;*/
+			box-sizing:border-box;
+			width: 79px;
+			height: 79px;
+			padding:0;
+		}
+		.col-xs-1 span{
+			display:none;
+		}
+		.row div img{
+			width: 79px;
+			height: 79px;
+			margin:0;
+		}
+		a{
+			color:black;
+			text-decoration:none;
+		}
+		a:hover{
+			color:red;
+		}
+		.searchBox{
+			margin:auto;
+			width: 633px;
+			height: 238px;
+			border:1px solid red;
+		}
+		.searchBox{
+			background-color: #fff;
+			box-sizing: border-box;
+			position:relative;
+			top:-395px;
+			left:-10px;
+			text-align:center;
+			padding-top: 35px;
+		}
+		
+		.searchBox h1{
+			margin:auto;
+			color:red;
+			width: 593px;
+			height: 35px;
+		}
+		.searchBox p{
+			box-sizing: border-box;
+			padding-top:10px;
+			padding-bottom:31px;
+			width: 593px;
+			height: 59px;
+			margin:auto;
+		}
+		.searchBox form{
+			width: 593px;
+			height: 40px;
+			margin:auto;
+		}
+		.searchBox form [type="text"]{
+			float:left;
+			width: 511px;
+			height: 40px;
+			border:2px solid #CCCCCC;
+		}
+		.searchBox form [type="button"]{
+			float:right;
+			width: 72px;
+			height: 40px;
+			background-color: #A32500;
+			border:none;
+			color:white;
+			font-size:18px;
+			font-weight: bold;
+		}
+		.recommend_box{
+			width: 1000px;
+			margin:auto;
+		}
+		.recommend{
+			width: 960px;
+			height: 66px;
+			line-height: 66px;
+			margin:auto;
+			background-color: #F7F6F4;
+			position:relative;
+			top:-240px;
+			padding:0 30px 0 10px;
+
+		}
+		.recommend_fleft{
+			float:left;
+		}
+		.recommend_fleft span{
+			margin-left:15px;
+		}
+		.recommend_fright{
+			float:right;
+		}
+	</style>
