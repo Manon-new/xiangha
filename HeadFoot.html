@@ -283,10 +283,12 @@
 	var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
 		$(this).next().removeClass("wh0")
-		console.log($(this).next())
+		$(this).next().removeClass("menuclass")
+		// console.log($(this).next())
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
 		$(this).next().addClass("wh0")
+		$(this).next().addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})
 </script>
