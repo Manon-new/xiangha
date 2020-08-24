@@ -1,0 +1,65 @@
+/*健康食疗*/
+*{
+	margin:0;
+	padding: 0;
+}
+section{
+	background-color: #eeece9;
+	padding: 37px 0;
+}
+.section{
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #000;
+	padding: 30px;
+	background-color: #fff;
+}
+.section span{
+	font-size: 30px;
+}
+.section a{
+	font-size: 20px;
+	margin: 0 24px;
+	text-decoration: none;
+	color:orange;
+}
+.section a:hover{
+	background-color: orange;
+	color:#fff;
+	text-decoration: underline;
+}
+h4{
+	font-size: 16px;
+}
+.warning{
+	/*border: 1px solid red;*/
+	margin: 20px 0 5px 0;
+	padding: 10px;
+	background-color: #fff2a7;
+	color: #c00;
+}
+.section .Popular-categories{
+	background-color: orange;
+	color: #fff;
+}
+.fixedul{/*ul 的定位*/
+	padding-left: 40px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	list-style-type: none;
+}
+.fixedul li{
+	float: left;
+	width: 85px;
+	line-height: 23px;
+	white-space: nowrap;
+	z-index: 0;
+}
+.fixedul li a{
+	color: #666;
+	font-size: 16px;
+	background-color: #fff;
+}
+.fixedul li a:hover{
+	text-decoration: underline;
+}

@@ -31,7 +31,7 @@
 					<li class="fleft">
 						<a href="">首页</a>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">菜谱分类 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">菜谱分类 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -134,7 +134,7 @@
 							</table>
 						</div>	
 					</li>
-					<li class="fleft"><a href="" class="hovershow">精选集 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">精选集 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -155,7 +155,7 @@
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">小吃特产 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">小吃特产 ▼</a>
 						<div class="menuclass">
 							<table>
 							<tr>
@@ -212,7 +212,7 @@
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">美食知识 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">美食知识 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -282,11 +282,12 @@
 <script>
 	var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
-		$(this).next().removeClass("wh0")
-		console.log($(this).next())
+		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("menuclass")
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
-		$(this).next().addClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})
 </script>

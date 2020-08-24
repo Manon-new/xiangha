@@ -1,0 +1,36 @@
+/*热门分类*/
+section{
+	width: 1000px;
+	margin:auto;
+	/*background-color: #00f;*/
+}
+section span{
+	font-size: 30px;
+}
+section a{
+	font-size: 20px;
+	margin: 0 24px;
+	text-decoration: none;
+	color:orange;
+}
+section a:hover{
+	background-color: orange;
+	color:#fff;
+}
+.Popular-categories{
+	background-color: orange;
+	color: #fff;
+}
+section table a{
+   	font-size: 16px;
+   	color: #666666;
+}
+section table .manner{
+	color: orange;
+}
+section table .manner:hover{
+	color:#fff;
+}
+section table{
+	margin: 10px 0;
+}
