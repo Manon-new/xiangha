@@ -4,45 +4,643 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<script src="jquery-3.5.1.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
+  <style>
+    #carousel-example-generic{
+      width: 640px;
+      height: 250px;
+    }
+  </style>
 </head>
 <body>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="..." alt="...">
-      <div class="carousel-caption">
-        ...
+  <!-- 第一行 -->
+  <header class="header1">
+    <div class="fristrow">
+      <div class="fleft">
+        <span class="title">香哈</span><input type="text" placeholder="糖醋排骨"><img src="./img/sousuo.png" alt="">
+      </div>
+      <div class="fright">
+        <a href="">登录</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="">注册</a>
       </div>
     </div>
-    <div class="item">
-      <img src="..." alt="...">
-      <div class="carousel-caption">
-        ...
+  </header>
+<!-- 第二行 -->
+  <header class="header2">
+    <div class="secrow">
+      <div class="fright pos">
+        <img src="./img/home.png" alt=""><a href="">我的香哈主页</a>
+      </div>
+      <div>
+        <ul>
+          <li class="fleft">
+            <a href="">首页</a>
+          </li>
+          <li class="fleft hovershow"><a href="" class="hovershow_a">菜谱分类 ▼</a>
+            <div class="menuclass">
+              <table>
+                <tr>
+                  <th>
+                    <a href="">常见分类</a>
+                  </th>
+                  <td>
+                    <a href="">家常菜</a>
+                  </td>
+                  <td>
+                    <a href="">素菜</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">凉菜</a>
+                  </td>
+                  <td>
+                    <a href="">下饭菜</a>
+                  </td>
+                  <td>
+                    <a href="">面食</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">粥</a>
+                  </td>
+                  <td>
+                    <a href="">汤羹</a>
+                  </td>
+                  <td>
+                    <a href="">川菜</a>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                  <th>
+                    <a href="">食材大全</a>
+                  </th>
+                  <td>
+                    <a href="">茄子</a>
+                  </td>
+                  <td>
+                    <a href="">土豆</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">豆腐</a>
+                  </td>
+                  <td>
+                    <a href="">排骨</a>
+                  </td>
+                  <td>
+                    <a href="">鱼</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">牛肉</a>
+                  </td>
+                  <td>
+                    <a href="">鸡翅</a>
+                  </td>
+                  <td>
+                    <a href="">虾</a>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                  <th>
+                    <a href="">食疗健康</a>
+                  </th>
+                  <td>
+                    <a href="">减肥</a>
+                  </td>
+                  <td>
+                    <a href="">美容</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">高血压</a>
+                  </td>
+                  <td>
+                    <a href="">糖尿病</a>
+                  </td>
+                  <td>
+                    <a href="">清热去火</a>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                  <th colspan="3"><a href="" >查看全部>></a></th>
+                </tr>
+              </table>
+            </div>  
+          </li>
+          <li class="fleft hovershow"><a href="" class="hovershow_a">精选集 ▼</a>
+            <div class="menuclass">
+              <table>
+                <tr>
+                  <td>家常菜精选</td>
+                  <td>火锅菜单</td>
+                  <td>冬季养生食谱</td>
+                </tr>
+                <tr>
+                  <td>电饭煲食谱</td>
+                  <td>早餐食谱</td>
+                  <td>鱼的做法大全</td>
+                </tr>
+                <tr>
+                  <td>懒人菜谱</td>
+                  <td>蒸菜大全</td>
+                  <td>排骨做法大全</td>
+                </tr>
+              </table>
+            </div>
+          </li>
+          <li class="fleft hovershow"><a href="" class="hovershow_a">小吃特产 ▼</a>
+            <div class="menuclass">
+              <table>
+              <tr>
+                <th>
+                  <a href="">小吃大全</a>
+                </th>
+                <td>
+                  <a href="">北京小吃</a>
+                </td>
+                <td>
+                  <a href="">湖北小吃</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="">广东小吃</a>
+                </td>
+                <td>
+                  <a href="">四川小吃</a>
+                </td>
+                <td>
+                  <a href="">香港小吃</a>
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <th>
+                  <a href="">特产大全</a>
+                </th>
+                <td>
+                  <a href="">北京特产</a>
+                </td>
+                <td>
+                  <a href="">上海特产</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="">四川特产</a>
+                </td>
+                <td>
+                  <a href="">广东特产</a>
+                </td>
+                <td>
+                  <a href="">新疆特产</a>
+                </td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <th><a href="">查看全部>></a></th>
+              </tr>
+              </table>
+            </div>
+          </li>
+          <li class="fleft hovershow"><a href="" class="hovershow_a">美食知识 ▼</a>
+            <div class="menuclass">
+              <table>
+                <tr>
+                  <td>
+                    <a href="">健康养生</a>
+                  </td>
+                  <td>
+                    <a href="">烹饪技巧</a>
+                  </td>
+                  <td>
+                    <a href="">美食精选</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="">美食杂谈</a>
+                  </td>
+                  <td>
+                    <a href=""></a>
+                  </td>
+                  <td>
+                    <a href=""></a>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                  <th><a href="">查看全部>></a></th>
+                </tr>
+              </table>
+            </div>
+          </li>
+          <li class="fleft"><a href="">美食圈</a></li>
+          <li class="fleft"><a href="">食物相克</a></li>
+          <li class="fleft"><a href="">做法大全</a></li>
+          <li class="fleft"><a href="">APP下载</a></li>
+          <!-- <li style="clear: both;"></li> -->
+        </ul>
+        <!-- <div style="clear: both;"></div> -->
       </div>
     </div>
-    ...
-  </div>
+    
+  </header>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+  <section>
+    <div class="section">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/1.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/3.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/4.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="...">
+          <div class="carousel-caption">
+            哈哈哈哈哈哈
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/6.jpg" alt="...">
+          <div class="carousel-caption">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+    </div>
+    <div class="meals">
+      <div class="box_title">
+        <span>8月25号</span>
+        <a href="">早餐</a>/
+        <a href="">午餐</a>/
+        <a href="">晚餐</a>
+      </div>
+      <div class="meals_list">
+        <ul class="clearfix list-inline">
+          <li>
+            <a class="pic" href="https://www.xiangha.com/caipu/100232171.html">
+              <img width="140px" height="140px" src="img/7.jpg" alt=""> 
+            </a>
+            <p class="name kw">
+              <a href="https://www.xiangha.com/caipu/100232171.html" title="酱焖腊鱼块">酱焖腊鱼块</a>
+            </p>
+            <div class="ins">
+              功效：止痛.温阳.散寒
+            </div>
+          </li>
+          <li>
+            <a class="pic" href="https://www.xiangha.com/caipu/100232171.html">
+              <img width="140px" height="140px" src="img/7.jpg" alt=""> 
+            </a>
+            <p class="name kw">
+              <a href="https://www.xiangha.com/caipu/100232171.html" title="酱焖腊鱼块">酱焖腊鱼块</a>
+            </p>
+            <div class="ins">
+              功效：止痛.温阳.散寒
+            </div>
+          </li>
+          <li>
+            <a class="pic" href="https://www.xiangha.com/caipu/100232171.html">
+              <img width="140px" height="140px" src="img/7.jpg" alt=""> 
+            </a>
+            <p class="name kw">
+              <a href="https://www.xiangha.com/caipu/100232171.html" title="酱焖腊鱼块">酱焖腊鱼块</a>
+            </p>
+            <div class="ins">
+              功效：止痛.温阳.散寒
+            </div>
+          </li>
+          <li>
+            <a class="pic" href="https://www.xiangha.com/caipu/100232171.html">
+              <img width="140px" height="140px" src="img/7.jpg" alt=""> 
+            </a>
+            <p class="name kw">
+              <a href="https://www.xiangha.com/caipu/100232171.html" title="酱焖腊鱼块">酱焖腊鱼块</a>
+            </p>
+            <div class="ins">
+              功效：止痛.温阳.散寒
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="home_classify">
+    <div class="home_classify_menu">
+      <p>热门分类</p>
+      <ul>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li><a href="" title="更多热门分类" class="more">更多>></a></li>
+        <p>食材分类</p>
+      <ul>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/c-jiachang/" title="家常菜做法大全">
+            <img src="img/8.jpg" width="28" height="28">家常菜
+          </a>
+        </li>
+        <li><a href="" title="更多热门分类" class="more">更多>></a></li>
+      </ul>
+      </ul>
+    </div>
+    <div class="home_classify_list">
+      <div class="box_title">
+        <a href="">家常菜</a>
+      </div>
+      <ul class="list-inline">
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li class="last">
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li class="last">
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+      </ul>
+      <div class="box_title">
+        <a href="">最近流行菜谱</a>
+      </div>
+      <ul class="list-inline">
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li class="last">
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li class="last">
+          <a href="https://www.xiangha.com/caipu/100356467.html" title="柠檬奶冻">
+            <img src="img/9.jpg" width="140px" height="105px">
+          </a>
+          <p class="name kw">
+            <a href="https://www.xiangha.com/caipu/100356467.html">柠檬奶冻</a>
+          </p>
+        </li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    </div>
+    <div class="home_nous home_classify">
+    <div class="box_title Knowledge">
+      <a href="https://www.xiangha.com/zhishi/">
+        美食知识
+      </a>/
+      <a href="https://www.xiangha.com/zhishi/">
+        健康养生
+      </a>/
+      <a href="https://www.xiangha.com/zhishi/">
+        烹饪技巧
+      </a>/
+      <a href="https://www.xiangha.com/zhishi/">
+        美食精选
+      </a>/
+      <a href="https://www.xiangha.com/zhishi/">
+        美食杂谈
+      </a>
+    </div>
+    <div class="home_nous_con">
+      <a href="https://www.xiangha.com/zhishi">
+        <img src="img/10.jpg" alt="" width="260" height="190">
+        <span class="">吸烟男士吃什么好？这些食物最清毒！</span>
+      </a>
+      <div class="home_nous_list">
+        <ul>
+          <li><span>1</span><a href="https://www.xiangha.com/zhishi/240820.html" target="_blank" title="注意！洗牙不等于美白牙齿">吸烟男士吃什么好？这些食物最清肺！</a></li>
+          <li><span>2</span><a href="https://www.xiangha.com/zhishi/240820.html" target="_blank" title="注意！洗牙不等于美白牙齿">困了只想喝咖啡？多吃7钟食物也能提神醒脑。</a></li>
+          <li><span>3</span><a href="https://www.xiangha.com/zhishi/240820.html" target="_blank" title="注意！洗牙不等于美白牙齿">晚餐吃太饱有六大危害，七八分饱最合适。</a></li>
+          <li><span>4</span><a href="https://www.xiangha.com/zhishi/240820.html" target="_blank" title="注意！洗牙不等于美白牙齿">注意！洗牙不等于美白牙齿</a></li>
+          <li><span>5</span><a href="https://www.xiangha.com/zhishi/240820.html" target="_blank" title="注意！洗牙不等于美白牙齿">睡姿不对，腰椎受罪</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+	
+<!-- 尾 -->
+  <footer>
+    <div class="foot">
+      <div class="inblock">
+        <!-- <p>内容简介：香哈网菜谱大全，为美食爱好者免费提供众多菜谱大全，超过上百种各式菜谱的介绍和做菜方法，更有各种菜谱大全带图片步骤的详细信息，找菜谱、学做菜就来香哈网</p> -->
+        <a href="" class="bigfont">关于香哈</a> 丨
+        <a href="" class="bigfont">联系我们</a> 丨
+        <a href="" class="bigfont">隐私声明</a> 丨
+        <a href="" class="bigfont">香哈手机版</a>
+        <p><span class="color">&copy;2011-2020 XIANGHA.COM&nbsp;&nbsp;&nbsp;</span>京ICP备13030563号-2 <span class="color">&nbsp;京公网安备11010802018190号</span></p>
+        <p><span class="font14">友情链接</span>（联系方式：bd@xiangha.com）</p>
+        <p class="color">北京餐饮美食</p>
+      </div>
+      <form action="" class="inblock textRight fright">
+        <textarea name="" id="" cols="14" rows="3" placeholder="纠错或意见反馈"></textarea><br>
+        <input type="button" value="提交反馈">
+      </form>
+    </div>
+  </footer>
+
+
+<script>
+  var hovershow = $(".hovershow");
+  hovershow.on("mouseover",function(){
+    $(this).children(".hovershow_a+div").removeClass("wh0")
+    $(this).children(".hovershow_a+div").removeClass("menuclass")
+    $(this).css("border-bottom","2px solid red")
+  }).on("mouseout",function(){
+    $(this).children(".hovershow_a+div").addClass("wh0")
+    $(this).children(".hovershow_a+div").addClass("menuclass")
+    $(this).css("border-bottom","2px solid transparent")
+  })
+</script>
 </body>
 </html>
