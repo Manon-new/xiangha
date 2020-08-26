@@ -1,0 +1,76 @@
+.fleft{
+	float: left;
+}
+div{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.imgbox{
+	width: 1000px;
+	margin:auto;
+	margin-top:38px;
+}
+.imgbox img{
+	width: 1000px;
+}
+.box{
+	width: 1000px;
+	margin:auto;
+}
+.haveyou{
+	text-align: center;
+	width: 640px;
+	background-color: #F6E9D8;
+}
+p{
+	color:#664528;
+	margin-top:-2px;
+}
+.textbox{
+	width: 640px;
+	text-align: center;
+	background-color: #F6E9D8;
+	padding-bottom:45px;
+}
+.indent{
+	text-indent: 3rem;
+}
+.QR{
+	width: 640px;
+}
+.QR img{
+	width: 316px;
+	height: 316px;
+}
+dl{
+	padding-bottom:40px;
+}
+dd{
+	width: 640px;
+	height: 30px;
+	line-height: 30px;
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style: none;
+	text-align: left;
+}
+li{
+	margin-top:7px;
+}
+li span{
+	margin-left:30px;
+	color:#666666;
+}
+ul a{
+	text-decoration:none;
+	color:#664528;
+	font-size: 12px;
+}

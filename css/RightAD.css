@@ -1,0 +1,128 @@
+.box{
+	width: 1000px;
+	margin:auto;
+}
+.fright{
+	float:right;
+	width: 300px;
+	box-sizing: border-box;
+}
+.ad{
+	width: 300px;
+	height: 254px;
+}
+.share{
+	margin-top: 20px;
+	width: 280px;
+	height: 51px;
+	line-height: 51px;
+	padding-left: 20px;
+	background-color: #E5E3E0;
+}
+.sharenext ul{
+	padding:15px;
+}
+.sharenext{
+	width: 300px;
+}
+.sharenext li{
+	box-sizing: border-box;
+	width: 270px;
+	height: 162px;
+	border-bottom:1px solid #F7F3E8;
+	padding:7px;
+}
+.sharenext ul{
+	margin:0;
+}
+.sharenext li a,
+.sharenext li img{
+	display:block;
+	float: left;
+}
+.w105{
+	width: 105px;
+	height: 105px;
+}
+.w52{
+	width: 52px;
+	height: 52px;
+}
+.u-f-box{
+	width: 160px;
+}
+.praise{
+	width: 220px;
+	height: 30px;
+	line-height:30px;
+}
+ul :last-child{
+	text-align: center;
+}
+#downAPP{
+	display: block;
+	margin:auto;
+	float: none;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	color:white;
+	background-color: #993300;
+}
+.sharenext_last{
+	text-align:center;
+	color:#993300;
+	margin-top: 20px;
+	padding-bottom:30px;
+}
+.sharenext_last span{
+	display: block;
+	margin:auto;
+	width: 300px;
+	height: 40px;	
+}
+.sharenext_last span a{
+	text-decoration:none;
+	color:#A3471A;
+}
+.inblock{
+	display: inline-block;
+}
+.gourmet{
+	margin-top: 30px;
+}
+.gourmet .share{
+
+}
+.gourmetlist{
+	width: 300px;
+}
+.gourmetlist li{
+	height: 68px;
+	width: 280px;
+}
+.gourmetlist img{
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+}
+.gourmetlist div{
+	width: 205px;
+}
+.info{
+	text-align: left;
+}
+.info span{
+	margin-left:0;
+}
+.gourmetlist li{
+	border-bottom:1px solid #F7F3E8;
+}
+.g-name a{
+	color: #A3471A;
+	font-size: 13px;
+}
+.g-name a:hover{
+	background-color: #A3471A;
+	color:white;
+}
