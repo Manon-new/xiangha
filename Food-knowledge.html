@@ -403,6 +403,35 @@
 					<div class="inblock">2018-8-10</div>
 				</li>
 			</ul>
+			<div class="bottomAD">
+				<img src="./img/ad1.png" alt="">
+				<img src="./img/ad2.png" alt="">
+				<img src="./img/ad1.png" alt="">
+				<div class="adlist">
+					<div class="inblock adtxt">压力测试网站</div>
+					<div class="inblock adtxt">压力测试网站</div>
+					<div class="inblock adtxt">压力测试网站</div>
+				</div>
+<nav aria-label="Page navigation swbtnbox">
+  <ul class="pagination marauto" id="active_a">
+    <li class="upbtn">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#" class="pagebtn">1</a></li>
+    <li><a href="#" class="pagebtn">2</a></li>
+    <li><a href="#" class="pagebtn">3</a></li>
+    <li><a href="#" class="pagebtn">4</a></li>
+    <li><a href="#" class="pagebtn">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+			</div>
 		</div>
 	</div>
 	<div class="fright">
@@ -460,6 +489,7 @@
 					<span class="inblock">8</span><a href="">番茄酱和番茄沙司有什么区别？</a>
 				</li>
 			</ul>
+
 		</div>
 
 		<div class="w300">
@@ -536,6 +566,29 @@
 		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})
+</script>
+
+<script>
+	var upbtn = $(".upbtn"),
+		downbtn = $(".downbtn"),
+		active = $(".active"),
+		pagebtn = $(".pagebtn")
+		hideup = function(){
+					active = $(".active")
+					if($(active.children()[0]).text() == 1){
+						upbtn.css("visibility","hidden")
+					} else{
+						upbtn.css("visibility","visible")
+					}			
+					console.log($(active.children()[0]))
+		};
+		hideup()
+	pagebtn.on("click",function(){
+		$(this).parent().parent().children().removeClass("active")
+		$(this).parent().toggleClass("active")
+		hideup()
+	})
+
 </script>
 </body>
 </html>

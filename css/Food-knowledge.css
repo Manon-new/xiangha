@@ -140,8 +140,42 @@
 	a{
 		color:#993300;
 	}
+	.bottomAD img{
+		width: 170px;
+		height: 125px;
+		border:1px solid #aaa;
+		margin-left: 20px;
+	}
 	.inblock{
 		display: inline-block;
+	}
+	/*下方广告*/
+	.adlist{
+		width: 1000px;
+	}
+	.adtxt{
+		width: 170px;
+		height: 18px;
+		margin-left: 20px;
+		padding-left: 40px;
+	}
+	/*页面切换*/
+	.swbtnbox{
+		width: 580px;
+		height: 28px;
+		margin:auto;
+		text-align:center;
+	}
+	#active_a .active a{
+		/*border:10px solid red;*/
+		background-color: #993300;
+		color:white;
+	}
+	.marauto{
+		width: 580px;
+		/*margin:auto 101px;*/
+		text-align: center;
+		padding-left: 180px;
 	}
 	/*热门推荐*/
 	.side_title{
