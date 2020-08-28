@@ -282,11 +282,11 @@
 <script>
 	var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
-		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("wh0")
 		$(this).children(".hovershow_a+div").removeClass("menuclass")
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
-		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("wh0")
 		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})

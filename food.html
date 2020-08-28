@@ -33,7 +33,7 @@
 					<li class="fleft">
 						<a href="">首页</a>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">菜谱分类 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">菜谱分类 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -136,7 +136,7 @@
 							</table>
 						</div>	
 					</li>
-					<li class="fleft"><a href="" class="hovershow">精选集 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">精选集 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -157,7 +157,7 @@
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">小吃特产 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">小吃特产 ▼</a>
 						<div class="menuclass">
 							<table>
 							<tr>
@@ -214,7 +214,7 @@
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="" class="hovershow">美食知识 ▼</a>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">美食知识 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -263,10 +263,10 @@
 	<section>
 		<div class="section">
 		<span>菜谱分类</span>
-		<a href="">热门分类</a>/
-		<a href="">常见分类</a>/
-		<a href="" class="Popular-categories">食材大全</a>/
-		<a href="">健康食疗</a>
+		<a href="Popular-categories.html">热门分类</a>/
+		<a href="Common-classifications.html">常见分类</a>/
+		<a href="food.html" class="Popular-categories">食材大全</a>/
+		<a href="Healthy diet.html">健康食疗</a>
 		<br>
 		<br>
 		<h4>菜式</h4>
@@ -979,14 +979,14 @@
 
 
 <script>
-	var hovershow = $(".hovershow");
+		var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
-		$(this).next().removeClass("wh0")
-		$(this).next().removeClass("menuclass")
+		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("menuclass")
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
-		$(this).next().addClass("wh0")
-		$(this).next().addClass("menuclass")
+		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})
 </script>

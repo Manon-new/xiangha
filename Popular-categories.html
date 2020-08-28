@@ -261,11 +261,12 @@
 
 
 	<section>
+		<div class="section">
 		<span>菜谱分类</span>
-		<a href="" class="Popular-categories">热门分类</a>/
-		<a href="">常见分类</a>/
-		<a href="">食材大全</a>/
-		<a href="">健康食疗</a>
+		<a href="Popular-categories.html" class="Popular-categories">热门分类</a>/
+		<a href="Common-classifications.html">常见分类</a>/
+		<a href="food.html">食材大全</a>/
+		<a href="Healthy diet.html">健康食疗</a>
 		<table>
 			<tr>
 				<td><a href="" class="manner">菜式</a></td>
@@ -512,6 +513,7 @@
 				<td><a href="">茄子</a></td>
 			</tr>
 		</table>
+		</div>
 	</section>
 
 	<!-- 尾 -->
@@ -538,11 +540,11 @@
 <script>
 	var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
-		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("wh0")
 		$(this).children(".hovershow_a+div").removeClass("menuclass")
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
-		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("wh0")
 		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})

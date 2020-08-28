@@ -17,8 +17,25 @@ div{
 	overflow: hidden;
 }
 .wh0{
-	width: 0;
-	height: 0;
+	display: inline-block;
+	width: 200px;
+	margin:0;
+	/*height: 405px;*/
+	float: left;
+	position: relative;
+	/*top: 24px;*/
+	/*left: 10px;*/
+	z-index: 100;
+}
+.hovershow{
+	width: 90px;
+}
+.fleft a{
+	color: #9e350e;
+}
+.fleft a:hover{
+	background-color: #9e350e;
+	color: #fff;
 }
 .header1{
 	width: 100%;
@@ -93,11 +110,14 @@ li{
 }
 /*隐藏*/
 .menuclass{
-	width: 246px;
+	width: 176px;
 	margin:0;
-	height: 0;
-	width: 0;
-	/*display: none;*/
+	height: 405px;
+	/*width: 0;*/
+	display: none;
+	position: relative;
+	top: 10px;
+	left: 10px;
 
 }
 /*.hovershow:hover {
@@ -122,8 +142,9 @@ li{
 }
 li div{
 	background-color: #F9F9F9;
-	/*position:relative;*/
+	/*position:fixed;*/
 	/*left:20px;*/
+	/*z-index: 100;*/
 }
 th a{
 	color:#993300;

@@ -1,0 +1,91 @@
+/*美食圈下面的红杠*/
+.underred{
+	border-bottom: 3px solid red;
+}
+section{
+	background-color: #eeece9;
+	padding: 30px;
+}
+.section{
+	width: 1000px;
+	padding: 30px;
+	margin: auto;
+	background-color: #fff;
+}
+.circle{
+	width: 900px;
+	height: 11px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+}
+.circle .box_title{
+	width: 900px;
+	height: 21px;
+	position: absolute;
+
+}
+.circle span{
+	display: inline-block;
+	/*margin: auto;*/
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 20px;
+	box-sizing: content-box;
+	background-color: #fff;
+	position: relative;
+	z-index: 100;
+}
+.pic{
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	
+}
+.user_ul .user_li{
+	width: 120px;
+	height: 118px;
+	box-sizing: content-box;
+	text-align: center;
+	padding-right: 0px;
+	padding-left: 0px;
+	display: inline-block;
+	margin: 0;
+	margin-right:10px;
+}
+.pic img{
+	border-radius: 65px;
+}
+.name_user{
+	width: 120px;
+	height: 21px;
+	margin-top: 8px;
+	
+}
+.name_user a{
+	color: #993300;
+}
+.name_user a:hover{
+	background-color: #993300;
+	color: #fff;
+}
+.list_li .list_name{
+	text-align: center;
+	padding: 8px 0;
+	margin-bottom:0;
+}
+.list_li .list_name a{
+	color: #993300;
+}
+.list_li .list_name a:hover{
+	background-color: #993300;
+	color: #fff;
+}
+.list_li .list_zan{
+	text-align: center;
+}
+.paging{
+	width: 1000px;
+	text-align: center;
+}
