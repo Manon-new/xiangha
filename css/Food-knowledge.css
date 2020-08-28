@@ -1,0 +1,217 @@
+	body{
+		background-color: #EEECE9;
+	}
+	header a{
+		color:#993300;
+	}
+	.knowledgebox{
+		width: 1000px;
+		padding: 0;
+		margin: 10px auto;
+		/*border:1px solid red;*/
+	}
+	.w640{
+		width: 640px;
+		padding:30px 30px 60px 30px;
+		box-sizing: border-box;
+		background-color: #fff;
+		/*border:1px solid blue;*/
+	}
+	.w300{
+		width: 300px;
+		/*border:1px solid green;*/
+	}
+
+/*美食知识__全部*/
+	.home_nous_con{
+		width: 600px;
+		height: 195px;
+	}
+	.home_nous_con a {
+		width: 260px;
+		height: 190px;
+		float: left;
+		display: inline-block;
+		/*margin-right: 30px;*/
+	}
+	.home_nous_con a span{
+		width: 260px;
+		height: 35px;
+		position: relative;
+		display: inline-block;
+		line-height: 35px;
+		top: -35px;
+		background-color: #eeece955;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		color: #fff;
+	}
+	.home_nous_list{
+		width: 310px;
+		height: 195px;
+		display: inline-block;
+	}
+	.home_nous_list li{
+		width: 310px;
+		height: 18px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		box-sizing: content-box;
+		padding: 10px 0;
+	}
+	.home_nous_list a{
+		display: inline;
+		float: none;
+		color: black;
+		font-size: 16px;
+	}
+	.home_nous_list span{
+		/*border: 1px solid red;*/
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		text-align: center;
+		margin-right: 10px;
+		background-color: #eeece9;
+		line-height: 18px;
+	}
+	.Knowledge{
+		margin-bottom: 20px;
+	}
+	.Knowledge :nth-child(2){
+		background-color: #993300;
+		color:white;
+		padding: 2px 3px;
+	}
+	.Knowledge a{
+		margin-left: 7px;
+	}
+	.Knowledge span{
+		margin-left: 7px;
+	}
+
+
+/*foodnews*/
+	.food_news{
+		margin-top:30px;
+	}
+	.food_news li{
+		background-color: #fff;
+		width: 580px;
+		height: 52px;
+		padding: 15px 0 15px 20px;
+		box-sizing: border-box;
+		border-bottom:1px solid #EEECE9;
+		background-image: url(https://s2.cdn.xiangha.com/img/nous_list_c_list.png);
+		background-repeat: no-repeat;
+		background-position: center left;
+	}
+	.food_news>div {
+		padding:0;
+
+	}
+	.food_news>div :nth-child(1){
+		background-color: #EEECE9;
+		width: 390px;
+		height: 32px;
+	}
+	.food_news>div :nth-child(2){
+		background-color: #EEECE9;
+		width: 120px;
+		height: 32px;
+	}
+	.food_news>div :nth-child(3){
+		background-color: #EEECE9;
+		width: 70px;
+		height: 32px;
+	}
+	.food_news li div:nth-child(1){
+		width: 350px;
+		height: 21px;
+		line-height: 21px;
+		background-color: #fff;
+	}
+	.food_news li div:nth-child(2){
+		width: 120px;
+		background-color: #fff;
+	}
+	a{
+		color:#993300;
+	}
+	.bottomAD img{
+		width: 170px;
+		height: 125px;
+		border:1px solid #aaa;
+		margin-left: 20px;
+	}
+	.inblock{
+		display: inline-block;
+	}
+	/*下方广告*/
+	.adlist{
+		width: 1000px;
+	}
+	.adtxt{
+		width: 170px;
+		height: 18px;
+		margin-left: 20px;
+		padding-left: 40px;
+	}
+	/*页面切换*/
+	.swbtnbox{
+		width: 580px;
+		height: 28px;
+		margin:auto;
+		text-align:center;
+	}
+	#active_a .active a{
+		/*border:10px solid red;*/
+		background-color: #993300;
+		color:white;
+	}
+	.marauto{
+		width: 580px;
+		/*margin:auto 101px;*/
+		text-align: center;
+		padding-left: 180px;
+	}
+	/*热门推荐*/
+	.side_title{
+		background-color: #E5E3E0;
+		width: 300px;
+		height: 51px;
+		padding: 15px;
+		box-sizing: border-box;
+		color:#666666;
+	}
+	.side_title+ul{
+		padding: 5px 15px 15px 15px;
+		background-color: #fff;
+		margin-bottom: 20px;
+	}
+	.side_title+ul li{
+		width: 270px;
+		box-sizing:border-box;
+		margin:10px 0;
+		border-bottom: 
+	}
+	.side_title+ul .bgcRed{
+		background-color: #993300;
+		text-align: center;
+		line-height: 18px;
+		color:white;
+		width: 18px;
+		height: 18px;
+		margin-right:10px;
+	}
+	.side_title+ul span{
+		background-color: #ECE5DB;
+		text-align: center;
+		line-height: 18px;
+		color:black;
+		width: 18px;
+		height: 18px;
+		margin-right:10px;
+	}
