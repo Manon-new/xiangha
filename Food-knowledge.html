@@ -8,6 +8,7 @@
 	<script src="./jquery/jquery-3.5.1.js"></script>
 	<script src="./bootstrap/js/bootstrap.js"></script>
 	<link rel="stylesheet" href="./css/Food-knowledge.css">
+	<script src="./js/Food-knowledge.js"></script>
 </head>
 <body>
 <!-- 第一行 -->
@@ -566,29 +567,6 @@
 		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
 	})
-</script>
-
-<script>
-	var upbtn = $(".upbtn"),
-		downbtn = $(".downbtn"),
-		active = $(".active"),
-		pagebtn = $(".pagebtn")
-		hideup = function(){
-					active = $(".active")
-					if($(active.children()[0]).text() == 1){
-						upbtn.css("visibility","hidden")
-					} else{
-						upbtn.css("visibility","visible")
-					}			
-					console.log($(active.children()[0]))
-		};
-		hideup()
-	pagebtn.on("click",function(){
-		$(this).parent().parent().children().removeClass("active")
-		$(this).parent().toggleClass("active")
-		hideup()
-	})
-
 </script>
 </body>
 </html>
