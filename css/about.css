@@ -5,9 +5,6 @@ div{
 	padding:0;
 	margin:0;
 }
-a{
-	text-decoration: none;
-}
 a:hover{
 	text-decoration:underline;
 }
@@ -58,18 +55,18 @@ dd{
 	padding:0;
 	margin:0;
 }
-ul{
+.textbox ul{
 	list-style: none;
 	text-align: left;
 }
-li{
+.textbox li{
 	margin-top:7px;
 }
-li span{
+.textbox li span{
 	margin-left:30px;
 	color:#666666;
 }
-ul a{
+.textbox ul a{
 	text-decoration:none;
 	color:#664528;
 	font-size: 12px;

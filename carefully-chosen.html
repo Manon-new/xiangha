@@ -7,9 +7,7 @@
 	<script src="./jquery/jquery-3.5.1.js"></script>
 	<script src="./bootstrap/js/bootstrap.js"></script>
 	<title>家常菜做法大全TOP榜 - 菜谱 - 香哈网</title>
-
 	<link rel="stylesheet" href="./css/Food-knowledge.css">
-
 	<script src="./js/Food-knowledge.js"></script>
 	<style>
 		.line{
@@ -18,7 +16,7 @@
 		body{
 			background-color: #EEECE9;
 		}
-		a{
+		.chosen a{
 			text-decoration:none;
 			color:#993300;
 		}
@@ -66,7 +64,6 @@
 		.w171{
 			width: 171px;			
 			box-sizing: border-box;
-			/*border:1px solid red;*/
 			overflow: hidden;
 			white-space:nowrap;
 			text-overflow: ellipsis;
@@ -77,12 +74,9 @@
 			font-size:14px;
 			line-height: 25px;
 		}
-
 		.flex{
 			display: flex;
-			/*width: 940px;*/
 			height: 800px;
-			/*border:1px solid red;*/
 			flex-wrap:wrap;
 			justify-content: space-between;
 			align-content: space-between;
@@ -354,29 +348,24 @@
 					<li class="fleft"><a href="">食物相克</a></li>
 					<li class="fleft"><a href="">做法大全</a></li>
 					<li class="fleft"><a href="">APP下载</a></li>
-					<!-- <li style="clear: both;"></li> -->
 				</ul>
 				        <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="times">
-    <span class="close" data-dismiss="modal">&times;</span>
-    </div>
-    <div class="modal-content">
-      <img src="img/win_app.png" alt="">
-    </div>
-    <div class="local_mod">
-    <a href="https://www.xiangha.com/app/" >本地下载</a>
-    </div>
-  </div>
-</div>
-				
-				<!-- <div style="clear: both;"></div> -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="times">
+				    <span class="close" data-dismiss="modal">&times;</span>
+				    </div>
+				    <div class="modal-content">
+				      <img src="img/win_app.png" alt="">
+				    </div>
+				    <div class="local_mod">
+				    <a href="https://www.xiangha.com/app/" >本地下载</a>
+				    </div>
+				  </div>
+				</div>
 			</div>
 		</div>
-		
 	</header>
-
 	<section class="chosen">
 		<div class="head">
 			<img src="./img/221.jpg" alt="">
@@ -399,31 +388,31 @@
 					</p>
 					<div class="flex">
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
-						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
+						<div class="flev">
+							<a href=""><img src="./img/rou.png" alt=""></a><br><span>红烧肉</span>
 						</div>
 					</div>
 				</div>
@@ -447,14 +436,12 @@
     </li>
   </ul>
 </nav>
-
 <ul class="toplist">
 	<li class="line w171 bgc"><a href="">家常菜做法大全TOP榜</a></li>
 	<li class="line w171"><a href="">鱼的做法大全</a></li>
 	<li class="line w171"><a href="">排骨的做法大全</a></li>
 	<li class="line w171"><a href="">扣肉的做法大全</a></li>
 </ul>
-
 		</div>	
 	</section>
 
