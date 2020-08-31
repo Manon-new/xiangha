@@ -2,6 +2,9 @@
 .underred{
 	border-bottom: 3px solid red;
 }
+.fright a{
+	color: #9e350e;
+}
 section{
 	background-color: #eeece9;
 	padding: 30px;

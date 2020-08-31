@@ -3,6 +3,9 @@ section{
 	background-color: #eeece9;
 	padding: 20px 10px;
 }
+.fright a{
+	color: #9e350e;
+}
 .section{
 	width: 1000px;
 	box-sizing: content-box;

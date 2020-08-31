@@ -13,6 +13,9 @@
     width: 1000px;
   }
 }
+.fright a{
+	color: #9e350e;
+}
 .row{
 	min-width: 1000px;
 	margin:auto;

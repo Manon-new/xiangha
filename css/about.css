@@ -5,6 +5,9 @@ div{
 	padding:0;
 	margin:0;
 }
+.fright a{
+	color: #9e350e;
+}
 a:hover{
 	text-decoration:underline;
 }

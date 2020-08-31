@@ -4,6 +4,9 @@
 	padding: 0;
 	font-size: 16px;
 }
+.fright a{
+	color: #9e350e;
+}
 a{
 	text-decoration: none;
 }
@@ -126,6 +129,7 @@ td a{
 }
 section{
 	background-color: #eeece9;
+	padding: 30px 10px;
 }
 .section{
 	width: 900px;

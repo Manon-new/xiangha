@@ -3,6 +3,9 @@
 	margin:0;
 	padding: 0;
 }
+.fright a{
+	color: #9e350e;
+}
 section{
 	background-color: #eeece9;
 	padding: 37px 0;
@@ -10,7 +13,6 @@ section{
 .section{
 	width: 1000px;
 	margin: auto;
-	border: 1px solid #000;
 	padding: 30px;
 	background-color: #fff;
 }
