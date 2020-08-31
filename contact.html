@@ -3,8 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>联系我们 - 香哈网</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="./css/HeadFoot.css">
 		<script src="./jquery/jquery-3.5.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
 	<style>
 		.contact{
 			width: 1000px;
@@ -74,7 +77,7 @@
 					<li class="fleft">
 						<a href="index.html">首页</a>
 					</li>
-					<li class="fleft"><a href="Common-classifications.html" class="hovershow">菜谱分类 ▼</a>
+					<li class="fleft hovershow"><a href="Common-classifications.html" class="hovershow_a">菜谱分类 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -177,28 +180,28 @@
 							</table>
 						</div>	
 					</li>
-					<li class="fleft"><a href="Common-classifications.html" class="hovershow">精选集 ▼</a>
+					<li class="fleft hovershow"><a href="Common-classifications.html" class="hovershow_a">精选集 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
-									<td>家常菜精选</td>
-									<td>火锅菜单</td>
-									<td>冬季养生食谱</td>
+								<td><a href="Common-classifications.html">家常菜精选</a></td>
+									<td><a href="Common-classifications.html">火锅菜单</a></td>
+									<td><a href="Common-classifications.html">冬季养生食谱</a></td>
 								</tr>
 								<tr>
-									<td>电饭煲食谱</td>
-									<td>早餐食谱</td>
-									<td>鱼的做法大全</td>
+									<td><a href="Common-classifications.html">电饭煲食谱</a></td>
+									<td><a href="Common-classifications.html">早餐食谱</a></td>
+									<td><a href="Common-classifications.html">鱼的做法大全</a></td>
 								</tr>
 								<tr>
-									<td>懒人菜谱</td>
-									<td>蒸菜大全</td>
-									<td>排骨做法大全</td>
+									<td><a href="Common-classifications.html">懒人菜谱</a></td>
+									<td><a href="Common-classifications.html">蒸菜大全</a></td>
+									<td><a href="Common-classifications.html">排骨做法大全</a></td>
 								</tr>
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="Common-classifications.html" class="hovershow">小吃特产 ▼</a>
+					<li class="fleft hovershow"><a href="Common-classifications.html" class="hovershow_a">小吃特产 ▼</a>
 						<div class="menuclass">
 							<table>
 							<tr>
@@ -255,7 +258,7 @@
 							</table>
 						</div>
 					</li>
-					<li class="fleft"><a href="Common-classifications.html" class="hovershow">美食知识 ▼</a>
+					<li class="fleft hovershow"><a href="Common-classifications.html" class="hovershow_a">美食知识 ▼</a>
 						<div class="menuclass">
 							<table>
 								<tr>
@@ -363,17 +366,16 @@
 
 
 <script>
-	var hovershow = $(".hovershow");
+		var hovershow = $(".hovershow");
 	hovershow.on("mouseover",function(){
-		$(this).next().removeClass("wh0")
-		$(this).next().removeClass("menuclass")
-		// console.log($(this).next())
+		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("menuclass")
 		$(this).css("border-bottom","2px solid red")
 	}).on("mouseout",function(){
-		$(this).next().addClass("wh0")
-		$(this).next().addClass("menuclass")
+		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("menuclass")
 		$(this).css("border-bottom","2px solid transparent")
-	})
+	}) 
 </script>
 	<script src="./js/headfoot.js"></script>
 </body>

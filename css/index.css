@@ -17,11 +17,16 @@ div{
 }
 .wh0{
 	display: inline-block;
-	width: 200px;
+	width: 300px;
 	margin:0;
 	float: left;
 	position: relative;
 	z-index: 100;
+}
+.wh0 a{
+	display: inline-block;
+	width:100px;
+	height:30px;
 }
 .hovershow{
 	width: 90px;
