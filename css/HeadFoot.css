@@ -68,7 +68,6 @@ div{
 .fright{
 	float:right;
 }
-
 /*搜索框*/
 .title+input{
 	padding-left: 5px;
@@ -85,7 +84,6 @@ div{
 	position:relative;
 	top: -9px;
 }
-
 li{
 	margin:auto 10px;
 }
@@ -100,7 +98,6 @@ li{
 	left: 10px;
 
 }
-
 .header2 img{
 	width: 20px;
 	height: 20px;
