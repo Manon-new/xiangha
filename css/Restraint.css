@@ -18,7 +18,6 @@
 	margin:auto;
 }
 .col-xs-1{
-	/*border:1px solid black;*/
 	box-sizing:border-box;
 	width: 79px;
 	height: 79px;
@@ -43,18 +42,19 @@ a:hover{
 	margin:auto;
 	width: 633px;
 	height: 238px;
-	border:1px solid red;
 }
 .searchBox{
 	background-color: #fff;
 	box-sizing: border-box;
-	position:relative;
-	top:-395px;
-	left:-10px;
+	position:absolute;
+	top:280px;
+	left:625px;
 	text-align:center;
 	padding-top: 35px;
 }
-
+.box{
+	position: relative;
+}
 .searchBox h1{
 	margin:auto;
 	color:red;

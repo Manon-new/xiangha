@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" charset="utf-8">
+	<link rel="stylesheet" href="./css/HeadFoot.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+	<script src="./jquery/jquery-3.5.1.js"></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>
 	<title>家常菜做法大全TOP榜 - 菜谱 - 香哈网</title>
+
+	<link rel="stylesheet" href="./css/Food-knowledge.css">
+
+	<script src="./js/Food-knowledge.js"></script>
 	<style>
 		.line{
 			display: inline-block;
+		}
+		body{
+			background-color: #EEECE9;
 		}
 		a{
 			text-decoration:none;
@@ -20,6 +31,7 @@
 		}
 		.section_body{
 			width: 960px;
+			background-color: #fff;
 			box-sizing: border-box;
 			padding:0 30px 30px 30px;
 		}
@@ -28,11 +40,29 @@
 		}
 		.toplist{
 			list-style: none;
+			margin-top:20px ;
+		}
+		.toplist a{
+			color:#993300;
+			text-decoration:none;
+		}
+		.toplist li:hover{
+			color:white;
+			background-color: #993300;
+		}
+		.toplist li:hover a{
+			color:#fff;
+		}
+		.bgc{
+			background-color: #993300;
+		}
+		.bgc a{
+			color:#fff;
 		}
 		.w171{
 			width: 171px;			
 			box-sizing: border-box;
-			border:1px solid red;
+			/*border:1px solid red;*/
 			overflow: hidden;
 			white-space:nowrap;
 			text-overflow: ellipsis;
@@ -46,8 +76,10 @@
 
 		.flex{
 			display: flex;
-			width: 940px;
-			border:1px solid red;
+			/*width: 940px;*/
+			height: 800px;
+			/*border:1px solid red;*/
+			flex-wrap:wrap;
 			justify-content: space-between;
 			align-content: space-between;
 		}
@@ -55,9 +87,264 @@
 			width: 280px;
 			height: 220px;
 		}
+		.flex_div span{
+			color:red;
+		}
 	</style>
 </head>
 <body>
+
+
+
+
+<!-- 第一行 -->
+	<header class="header1">
+		<div class="fristrow">
+			<div class="fleft">
+				<span class="title">香哈</span><input type="text" placeholder="糖醋排骨"><img src="./img/sousuo.png" alt="sousuo" class="sousuo">
+			</div>
+			<div class="fright">
+				<a href="">登录</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="">注册</a>
+			</div>
+		</div>
+	</header>
+<!-- 第二行 -->
+	<header class="header2">
+		<div class="secrow">
+			<div class="fright pos">
+				<img src="./img/home.png" alt=""><a href="">我的香哈主页</a>
+			</div>
+			<div>
+				<ul>
+					<li class="fleft">
+						<a href="">首页</a>
+					</li>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">菜谱分类 ▼</a>
+						<div class="menuclass">
+							<table>
+								<tr>
+									<th>
+										<a href="">常见分类</a>
+									</th>
+									<td>
+										<a href="">家常菜</a>
+									</td>
+									<td>
+										<a href="">素菜</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">凉菜</a>
+									</td>
+									<td>
+										<a href="">下饭菜</a>
+									</td>
+									<td>
+										<a href="">面食</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">粥</a>
+									</td>
+									<td>
+										<a href="">汤羹</a>
+									</td>
+									<td>
+										<a href="">川菜</a>
+									</td>
+								</tr>
+								<tr></tr>
+								<tr></tr>
+								<tr>
+									<th>
+										<a href="">食材大全</a>
+									</th>
+									<td>
+										<a href="">茄子</a>
+									</td>
+									<td>
+										<a href="">土豆</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">豆腐</a>
+									</td>
+									<td>
+										<a href="">排骨</a>
+									</td>
+									<td>
+										<a href="">鱼</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">牛肉</a>
+									</td>
+									<td>
+										<a href="">鸡翅</a>
+									</td>
+									<td>
+										<a href="">虾</a>
+									</td>
+								</tr>
+								<tr></tr>
+								<tr></tr>
+								<tr>
+									<th>
+										<a href="">食疗健康</a>
+									</th>
+									<td>
+										<a href="">减肥</a>
+									</td>
+									<td>
+										<a href="">美容</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">高血压</a>
+									</td>
+									<td>
+										<a href="">糖尿病</a>
+									</td>
+									<td>
+										<a href="">清热去火</a>
+									</td>
+								</tr>
+								<tr></tr>
+								<tr></tr>
+								<tr>
+									<th colspan="3"><a href="" >查看全部>></a></th>
+								</tr>
+							</table>
+						</div>	
+					</li>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">精选集 ▼</a>
+						<div class="menuclass">
+							<table>
+								<tr>
+									<td>家常菜精选</td>
+									<td>火锅菜单</td>
+									<td>冬季养生食谱</td>
+								</tr>
+								<tr>
+									<td>电饭煲食谱</td>
+									<td>早餐食谱</td>
+									<td>鱼的做法大全</td>
+								</tr>
+								<tr>
+									<td>懒人菜谱</td>
+									<td>蒸菜大全</td>
+									<td>排骨做法大全</td>
+								</tr>
+							</table>
+						</div>
+					</li>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">小吃特产 ▼</a>
+						<div class="menuclass">
+							<table>
+							<tr>
+								<th>
+									<a href="">小吃大全</a>
+								</th>
+								<td>
+									<a href="">北京小吃</a>
+								</td>
+								<td>
+									<a href="">湖北小吃</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="">广东小吃</a>
+								</td>
+								<td>
+									<a href="">四川小吃</a>
+								</td>
+								<td>
+									<a href="">香港小吃</a>
+								</td>
+							</tr>
+							<tr></tr>
+							<tr></tr>
+							<tr>
+								<th>
+									<a href="">特产大全</a>
+								</th>
+								<td>
+									<a href="">北京特产</a>
+								</td>
+								<td>
+									<a href="">上海特产</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="">四川特产</a>
+								</td>
+								<td>
+									<a href="">广东特产</a>
+								</td>
+								<td>
+									<a href="">新疆特产</a>
+								</td>
+							</tr>
+							<tr></tr>
+							<tr></tr>
+							<tr>
+								<th><a href="">查看全部>></a></th>
+							</tr>
+							</table>
+						</div>
+					</li>
+					<li class="fleft hovershow"><a href="" class="hovershow_a">美食知识 ▼</a>
+						<div class="menuclass">
+							<table>
+								<tr>
+									<td>
+										<a href="">健康养生</a>
+									</td>
+									<td>
+										<a href="">烹饪技巧</a>
+									</td>
+									<td>
+										<a href="">美食精选</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="">美食杂谈</a>
+									</td>
+									<td>
+										<a href=""></a>
+									</td>
+									<td>
+										<a href=""></a>
+									</td>
+								</tr>
+								<tr></tr>
+								<tr></tr>
+								<tr>
+									<th><a href="">查看全部>></a></th>
+								</tr>
+							</table>
+						</div>
+					</li>
+					<li class="fleft"><a href="">美食圈</a></li>
+					<li class="fleft"><a href="">食物相克</a></li>
+					<li class="fleft"><a href="">做法大全</a></li>
+					<li class="fleft"><a href="">APP下载</a></li>
+					<!-- <li style="clear: both;"></li> -->
+				</ul>
+				<!-- <div style="clear: both;"></div> -->
+			</div>
+		</div>
+		
+	</header>
+
 	<section class="chosen">
 		<div class="head">
 			<img src="./img/221.jpg" alt="">
@@ -65,7 +352,7 @@
 		<div class="section_body">
 			<div class="row1">
 				<ul class="toplist">
-					<li class="line w171"><a href="">家常菜做法大全TOP榜</a></li>
+					<li class="line w171 bgc"><a href="">家常菜做法大全TOP榜</a></li>
 					<li class="line w171"><a href="">鱼的做法大全</a></li>
 					<li class="line w171"><a href="">排骨的做法大全</a></li>
 					<li class="line w171"><a href="">扣肉的做法大全</a></li>
@@ -76,36 +363,124 @@
 					</p>
 					<div class="flex">
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 						<div class="flex_div">
-							<img src="./img/rou.png" alt=""><span></span>
+							<img src="./img/rou.png" alt=""><br><span>红烧肉</span>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
+<div style="width:610px;overflow:hidden;">
+	<div style="margin-left:-32px;margin-top:-14px;">
+		<script type="text/javascript"> var cpro_id = "u2857917";</script>
+		<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js"></script>
+		<div id="BAIDU_SSP__wrapper_u2857917_0">
+			<iframe src="https://pos.baidu.com/wcvm?conwid=650&amp;conhei=150&amp;rdid=2857917&amp;dc=3&amp;exps=110261,110254,110011&amp;psi=85e1158741ebe1b72dcc59da6ad89194&amp;di=u2857917&amp;dri=0&amp;dis=0&amp;dai=1&amp;ps=1898x469&amp;enu=encoding&amp;ant=0&amp;dcb=___adblockplus_&amp;dtm=HTML_POST&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1598601693423&amp;ti=%E5%AE%B6%E5%B8%B8%E8%8F%9C%E5%81%9A%E6%B3%95%E5%A4%A7%E5%85%A8TOP%E6%A6%9C%20-%20%E8%8F%9C%E8%B0%B1%20-%20%E9%A6%99%E5%93%88%E7%BD%91&amp;ari=2&amp;ver=0825&amp;dbv=0&amp;drs=1&amp;pcs=1903x944&amp;pss=1903x1942&amp;cfv=0&amp;cpl=0&amp;chi=7&amp;cce=true&amp;cec=UTF-8&amp;tlm=1598601693&amp;prot=2&amp;rw=944&amp;ltu=https%3A%2F%2Fwww.xiangha.com%2Fcaipu%2Fcaidan%2F221-7%3Fsign%3Dc4b425f1bb669d5a23f5da70e32a66c2&amp;ltr=https%3A%2F%2Fwww.xiangha.com%2Fcaipu%2Fcaidan%2F221-6%3Fsign%3D997c1146e57ba42065ab8487023451b3&amp;ecd=1&amp;uc=1920x1046&amp;pis=-1x-1&amp;sr=1920x1080&amp;tcn=1598601693&amp;qn=310c19ff58e55c50&amp;tt=1598601693413.19.20.20" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" style="border:0;vertical-align:bottom;margin:0;width:650px;height:150px;margin:20px auto" allowtransparency="true" width="650" height="150" align="center,center"></iframe>
+		</div>
+	</div>
+</div>
+
+
+
+<nav aria-label="Page navigation swbtnbox">
+  <ul class="pagination marauto" id="active_a">
+    <li class="upbtn">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#" class="pagebtn">1</a></li>
+    <li><a href="#" class="pagebtn">2</a></li>
+    <li><a href="#" class="pagebtn">3</a></li>
+    <li><a href="#" class="pagebtn">4</a></li>
+    <li><a href="#" class="pagebtn">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<ul class="toplist">
+	<li class="line w171 bgc"><a href="">家常菜做法大全TOP榜</a></li>
+	<li class="line w171"><a href="">鱼的做法大全</a></li>
+	<li class="line w171"><a href="">排骨的做法大全</a></li>
+	<li class="line w171"><a href="">扣肉的做法大全</a></li>
+</ul>
+
 		</div>	
 	</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 尾 -->
+	<footer>
+		<div class="foot">
+			<div class="inblock">
+				<p>内容简介：香哈网菜谱大全，为美食爱好者免费提供众多菜谱大全，超过上百种各式菜谱的介绍和做菜方法，更有各种菜谱大全带图片步骤的详细信息，找菜谱、学做菜就来香哈网内容简介：香哈网菜谱大全，为美食爱好者免费提供众多菜谱大全，\</p>
+				<a href="" class="bigfont">关于香哈</a> 丨
+				<a href="" class="bigfont">联系我们</a> 丨
+				<a href="" class="bigfont">隐私声明</a> 丨
+				<a href="" class="bigfont">香哈手机版</a>
+				<p><span class="color">&copy;2011-2020 XIANGHA.COM&nbsp;&nbsp;&nbsp;</span>京ICP备13030563号-2 <span class="color">&nbsp;京公网安备11010802018190号</span></p>
+				<p><span class="font14">友情链接</span>（联系方式：bd@xiangha.com）</p>
+				<p class="color">北京餐饮美食</p>
+			</div>
+			<form action="" class="inblock textRight fright">
+				<textarea name="" id="" cols="14" rows="3" placeholder="纠错或意见反馈"></textarea><br>
+				<input type="submit" value="提交反馈">
+			</form>
+		</div>
+	</footer>
+
+
+<script>
+	var hovershow = $(".hovershow");
+	hovershow.on("mouseover",function(){
+		$(this).children(".hovershow_a+div").addClass("wh0")
+		$(this).children(".hovershow_a+div").removeClass("menuclass")
+		$(this).css("border-bottom","2px solid red")
+	}).on("mouseout",function(){
+		$(this).children(".hovershow_a+div").removeClass("wh0")
+		$(this).children(".hovershow_a+div").addClass("menuclass")
+		$(this).css("border-bottom","2px solid transparent")
+	})
+</script>
+
+
+	<script src="./js/headfoot.js"></script>
 </body>
 </html>

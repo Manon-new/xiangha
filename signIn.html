@@ -4,23 +4,25 @@
 	<meta charset="UTF-8">
 	<title>登录_注册 - 香哈网</title>
 	<link rel="stylesheet" href="./css/signin.css">
-
+	<script src="./jquery-3.5.1.js"></script>
 </head>
 <body>
 	<h1><a href="">香哈网</a></h1>
 		<div>
-			<div class="p30"><b>欢迎回来,登录</b></div>
-			<button class="blue"><img src="./img/qq.png" alt="">| &nbsp;QQ账号登录</button><button class="red"><img src="./img/xinlang.png" alt="">| &nbsp;新浪微博登录</button>
+			<div class="p30"><b class="back">欢迎回来,登录</b></div>
+			<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=215798&redirect_uri=https%3A%2F%2Fwww.xiangha.com%2Fentry%2FqqLoginCallback&response_type=code&scope=get_user_info%2Cadd_share"><button class="blue"><img src="./img/qq.png" alt="">| &nbsp;QQ账号登录</button></a><a href="https://api.weibo.com/oauth2/authorize?client_id=1861765737&redirect_uri=https%3A%2F%2Fwww.xiangha.com%2Fentry%2FsinaLoginCallback&response_type=code###"><button class="red"><img src="./img/xinlang.png" alt="">| &nbsp;新浪微博登录</button></a>
 		</div>
-		<div>
+		<div class="hideTog">
 			<div class="m14">或用已有账号登录</div>
 			<form action="">
-				<input type="text" placeholder="手机号/邮箱"><br>
+				<input type="text" placeholder="手机号/邮箱"><br><span class="f_span" style="color:red;"></span><br>
 				<input type="password" placeholder="密码">
 				<div><input type="checkbox" id="inp"><label for="#inp">下次自动登录</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="">忘记密码了</a></div>
 				<div><input type="button" value="登录"></div>
 			</form>
 		</div>
-	<h5>没有香哈账号？<a href="">注册</a></h5>
+	<h5><span class="have">没有香哈账号？</span><span class="singin">注册</span></h5>
+
+<script src="./js/singIn.js"></script>
 </body>
 </html>
