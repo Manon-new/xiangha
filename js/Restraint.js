@@ -97,7 +97,6 @@ $(function(){
 	});
 	console.log(foodlist)
 	for(var i in foodlist){
-		// for(var m in $(".col-xs-1").children())
 		$($(".col-xs-1").children()[i]).removeAttr("src", foodlist[i])
 		$($(".col-xs-1").children()[i]).attr("src", foodlist[i]) 
 		console.log($(".col-xs-1").children())
@@ -117,26 +116,9 @@ $(function(){
 		})
 	})
 	$(".col-xs-1 span").on("mouseout",function(){
-		// console.log(++i)
 		$(this).css("display","none")
 		$(this).prev().css({"display":"block"})
 	})
 	// 模态框
 	
 })
-
-
-		// <div class="row">
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// 	<div class="col-xs-1"><img src="./img/restraint/apple.jpg" alt=""><span>苹果</span></div>
-		// </div>

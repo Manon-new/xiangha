@@ -15,20 +15,14 @@ var singin = $(".singin"),
 singin.on("click",function(){
 	if(back.text() === "欢迎回来,登录"){
 		back.text("注册账号")
-		// hideTog.css("display","none")
 		have.text("已有香哈账号？")
 		singin.text("登录")
-		// pwd2.css("display","inline-block")
-		// pwd2.next().css("display","none")
 		subBtn.val("注册")
 		f_span.text("")
 	} else {
 		back.text("欢迎回来,登录")
-		// hideTog.css("display","block")
 		have.text("没有香哈账号？")
 		singin.text("注册")
-		// pwd2.css("display","none")
-		// pwd2.next().css("display","inline-block")
 		subBtn.val("登录")
 	}
 })
@@ -48,7 +42,6 @@ subBtn.on("click",function(){
 				}else{
 					f_span.text("用户名或密码错误")
 				}
-				
 			}
 			
 		}else{

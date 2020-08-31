@@ -6,7 +6,6 @@
 }
 a{
 	text-decoration: none;
-	/*color:black;*/
 }
 a:hover{
 	text-decoration:underline;
@@ -21,11 +20,8 @@ div{
 	display: inline-block;
 	width: 200px;
 	margin:0;
-	/*height: 405px;*/
 	float: left;
 	position: relative;
-	/*top: 24px;*/
-	/*left: 10px;*/
 	z-index: 100;
 }
 .hovershow{
@@ -61,14 +57,6 @@ div{
 	margin:auto;
 	width: 1000px;
 }
-.posi{
-	/*position:relative;*/
-	/*left:-390px;*/
-}
-.pos{
-	/*position:relative;*/
-	/*left:-250px;*/
-}
 .title{
 	color:#9E350E;
 	font-size: 40px;
@@ -96,37 +84,20 @@ div{
 	width: 70px;
 	position:relative;
 	top: 3px;
-	/*border:1px solid black;*/
-}
-
-
-ul{
-	/*float: left;*/
-	/*display:inline-block;*/
-	/*border:1px solid red;*/
 }
 li{
 	margin:auto 10px;
-	/*border:1px solid red;*/
 }
 /*隐藏*/
 .menuclass{
 	width: 176px;
 	margin:0;
 	height: 405px;
-	/*width: 0;*/
 	display: none;
 	position: relative;
 	top: 10px;
 	left: 10px;
-
 }
-/*.hovershow:hover {
-	display: block;
-	position:relative;
-	bottom:-30px;
-	left:200px;
-}*/
 
 .header2 img{
 	width: 20px;
@@ -143,8 +114,6 @@ li{
 }
 li div{
 	background-color: #F9F9F9;
-	/*position:relative;*/
-	/*left:20px;*/
 }
 th a{
 	color:#993300;
@@ -155,15 +124,12 @@ td a{
 [colspan="3"]{
 	text-align: center;
 }
-
-
 section{
 	background-color: #eeece9;
 }
 .section{
 	width: 900px;
 	margin:auto;
-	/*border: 1px solid #000;*/
 	padding: 30px;
 	background-color: #fff;
 }
@@ -214,24 +180,18 @@ footer{
 	height: 207px;
 	width: 100%;
 	background-color: #D6D4D0;
-	/*position:fixed;*/
-	/*bottom: 0;*/
-	/*left:0;*/
 }
 .foot{
 	width: 1000px;
 	padding-top:20px;
 	margin-bottom:-20px;
 	margin:auto;
-	/*border:1px solid red;*/
 }
 .foot div{
 	width: 670px;
 }
-
 .inblock{
 	display: inline-block;
-	/*border:1px solid blue;*/
 }
 .textRight{
 	text-align:right;
