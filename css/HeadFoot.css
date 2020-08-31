@@ -18,11 +18,16 @@ div{
 }
 .wh0{
 	display: inline-block;
-	width: 200px;
+	width: 300px;
 	margin:0;
 	float: left;
 	position: relative;
-	z-index: 100;
+	z-index: 101;
+}
+.wh0 a{
+	display: inline-block;
+	width:100px;
+	height:30px;
 }
 .hovershow{
 	width: 90px;
@@ -89,14 +94,13 @@ li{
 }
 /*隐藏*/
 .menuclass{
-	width: 176px;
+	width: 200px;
 	margin:0;
 	height: 405px;
 	display: none;
 	position: relative;
 	top: 10px;
 	left: 10px;
-
 }
 .header2 img{
 	width: 20px;
