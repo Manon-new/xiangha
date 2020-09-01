@@ -35,9 +35,9 @@ div{
 .fleft a{
 	color: #9e350e;
 }
-.fleft a:hover{
-	background-color: #9e350e;
-	color: #fff;
+.fleft tr a:hover{
+	/*background-color: #9e350e;*/
+	color: #9e350e;
 }
 .header1{
 	width: 100%;

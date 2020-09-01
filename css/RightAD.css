@@ -10,13 +10,13 @@
 	width: 300px;
 	height: 254px;
 }
-.share{
+.fright .share{
 	margin-top: 20px;
-	width: 280px;
+	width: 300px;
 	height: 51px;
 	line-height: 51px;
 	padding-left: 20px;
-	background-color: #E5E3E0;
+	background-color: #e5e3e0;
 }
 .sharenext ul{
 	padding:15px;
@@ -92,7 +92,7 @@ ul :last-child{
 	width: 300px;
 }
 .gourmet .share{
-
+	margin: 0;
 }
 .gourmetlist{
 	width: 300px;

@@ -38,8 +38,8 @@ div{
 	color: #9e350e;
 }
 .fleft a:hover{
-	background-color: #9e350e;
-	color: #fff;
+	/*background-color: #9e350e;*/
+	color: #9e350e;
 }
 .header1{
 	width: 100%;
@@ -177,39 +177,39 @@ section{
 	background-color: #fff;
 }
 .box_title a{
-	color: orange;
+	color: #9e350e;
 }
 .box_title a:hover,.clearfix li a:hover{
-	background-color: orange;
+	background-color: #9e350e;
 	color: #fff;
 }
 .clearfix li{
 	width: 125px;
 }
 .clearfix li a{
-	color: orange;
+	color: #9e350e;
 }
 .home_classify{
 	margin-top: 20px;
 }
 .home_classify_menu{
 	width: 138px;
-	height: 744px;
-	margin-top: 20px;
+	height: 762px;
+	margin-top: 0px;
 	border-right: 1px solid #eeece9;
 	background-color: #fff;
 	float: left;
 }
 .home_classify_menu p{
 	width: 138px;
-	height: 38px;
+	height: 48px;
 	margin-bottom: 0;
 	font-weight: bold;
 	text-align: center;
 	line-height: 32px;
 	color: #666;
 	font-size: 2rem;
-	background-color: #eeece9;
+	background-color: #e5e3e0;
 }
 .home_classify_menu ul{
 	list-style-type: none;
@@ -218,6 +218,7 @@ section{
 .home_classify_menu ul li{
 	width: 138px;
 	height: 32px;
+	text-align: center;
 	padding: 6px 0;
 	margin: 13px 0;
 }
@@ -226,7 +227,7 @@ section{
 }
 .home_classify_menu ul li a{
 	color: black;
-	font-size: 2rem
+	font-size: 1.7rem;
 }
 .home_classify_menu li a img{
 	margin: -3px 12px 3px 0;
@@ -266,11 +267,11 @@ section{
 	text-align: center;	
 }
 .home_classify_list p a{
-	color: orange;
+	color: #9e350e;
 }
 .home_classify_list p a:hover{
 	color: #fff;
-	background-color: orange;
+	background-color: #9e350e;
 }
 .home_nous{
 	width: 600px;
